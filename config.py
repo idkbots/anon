@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "8557e95e0dd37df02d12406639157050")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6310977936:AAGniQMlsgRZDsHzmBWeKRs9CJmtfmk1Ey0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Allen1:<password>@cluster0.vapqij4.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Allen1:Allen1@cluster0.vapqij4.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001880014673"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Allen music")
 
