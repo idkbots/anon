@@ -14,9 +14,9 @@ BOT_TOKEN = getenv("BOT_TOKEN", "6310977936:AAGniQMlsgRZDsHzmBWeKRs9CJmtfmk1Ey0"
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ANAYA:ANAYA@cluster0.g0solao.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001880014673"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀllen music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Allen music")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5032100535").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
